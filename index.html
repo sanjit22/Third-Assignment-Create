@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third Assignment</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" /><script src="https://cdn.tailwindcss.com"></script>
+
+<!-- Google font lato --><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@500&family=Poppins:wght@400;500;600;700;800&family=Roboto+Slab:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+    .font-Lato{
+        font-family: 'Lato', sans-serif;
+
+    }
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar bg-base-100 bg-red-400 p-">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost btn-circle">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a>Homepage</a></li>
+                      <li><a>Portfolio</a></li>
+                      <li><a>About</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="navbar-center">
+                    <img src="./images/logo.png" alt="">
+                  <a class="btn btn-ghost normal-case text-4xl">Fruit Burst</a>
+                </div>
+                <div class="navbar-end">
+                    <input type="text" name="Search" id="" placeholder="Search Here">
+                  <!-- <button class="btn btn-ghost btn-circle bg-white ">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                  </button> -->
+                </div>
+              </div>
+        </nav>
+        <!-- slider or carousel -->
+        <div class=" gird grid-cols-1 carousel w-full pt-20 text-center text-white ">
+            <!-- slide-1 -->
+            <div class="font-Lato">
+                <h1 class="text-3xl ">Exotic tastes at your <br> doorstep</h1>
+                <button class="btn btn-error">Shop Now</button>
+            </div>
+            <div id="slide1" class="carousel-item relative w-full ">
+              <img src="./images/banner1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+
+                <a href="#slide4" class="btn btn-circle">❮</a>
+                <div class="container pb-20">
+                    <h1 class="text-6xl font-semibold pb-4 ">Exotic Tastes at Your <br> Doorstep</h1>
+                    <p class="pb-4">We supply highly quality organic products</p>
+                    <button class="btn btn-error text-gray-50">Shop Now</button>
+                </div> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+
+            <!-- slide-2 -->
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="./images/banner2.png" class="w-full" />
+              <div>
+              </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+
+            <!-- slide-3 -->
+            <div id="slide3" class="carousel-item relative w-full">
+              <img src="./images/banner3.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a>
+                
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+
+            <!-- slide-4 -->
+            <div id="slide4" class="carousel-item relative w-full">
+              <img src="./images/banner4.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a>
+                
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
+          <!-- Deal of the section -->
+
+          <section>
+            <div class="flex justify-between mt-20">
+            <div class="pl-3">
+            <h3 class="text-4xl ">Deal of The Day</h3>
+            <p class="mt-8">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+        </div>
+    <div class="flex gap-6 pr-2 ">
+        <div class="text-4xl"> <div class="flex">29 <img class="mt-4 pl-5" src="./images/Frame (1).png" alt=""></div>
+                <p class="text-lg mt-4">Days</p>
+                
+            </div>
+                  
+            <div class="text-4xl"><div class="flex">15 <img class="mt-4 pl-5" src="./images/Frame (1).png" alt=""></div> <p class="text-lg mt-4">Hours</p></div>
+
+            <div class="text-4xl"><div class="flex">25 <img class="mt-4 pl-5" src="./images/Frame (1).png" alt=""></div> <p class="text-lg mt-4">Minutes</p></div>
+
+            <div class="text-4xl">08 <p class="text-lg mt-4">Seconds</p></div>
+        </div>
+    </div>
+    </section>
+    <!-- deal of the project -->
+
+    <section class="mt-10">
+        <div class="flex justify-around mt-">
+            <!-- 1st card -->
+            <div class="card w-80 bg-base-100 shadow-xl ">
+                <figure class="px-10 pt-10 ">
+                  <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">12.90$ - 18.85$</h2>
+                  <hr class="w-1/2">
+                  <p>Apples</p>
+                  <div class="rating pt-8">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                  <a class="font-semibold text-warning pt-3" href="">Details</a>
+                </div>
+              </div>
+
+               <!-- 2nd card -->
+              <div class="card w-80 bg-base-100 shadow-xl ">
+                <figure class="px-10 pt-10 ">
+                  <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">12.90$ - 18.85$</h2>
+                  <hr class="w-1/2">
+                  <p>Apples</p>
+                  <div class="rating pt-8">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                  <a class="font-semibold text-warning pt-3" href="">Details</a>
+                </div>
+              </div>
+
+               <!-- 3rd card -->
+              <div class="card w-80 bg-base-100 shadow-xl ">
+                <figure class="px-10 pt-10 ">
+                  <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">12.90$ - 18.85$</h2>
+                  <hr class="w-1/2">
+                  <p>Apples</p>
+                  <div class="rating pt-8">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                  <a class="font-semibold text-warning pt-3" href="">Details</a>
+                </div>
+              </div>
+
+               <!-- 4th card -->
+              <div class="card w-80 bg-base-100 shadow-xl ">
+                <figure class="px-10 pt-10 ">
+                  <img src="./images/fruit9.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">12.90$ - 18.85$</h2>
+                  <hr class="w-1/2">
+                  <p>Apples</p>
+                  <div class="rating pt-8">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                  <a class="font-semibold text-warning pt-3" href="">Details</a>
+                </div>
+              </div>
+
+        </div>        
+    </section>
+
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
